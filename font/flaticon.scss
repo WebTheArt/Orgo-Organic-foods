@@ -1,0 +1,125 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?73e390991ef7c00f9454575efe4a7815") format("truetype"),
+url("./flaticon.woff?73e390991ef7c00f9454575efe4a7815") format("woff"),
+url("./flaticon.woff2?73e390991ef7c00f9454575efe4a7815") format("woff2"),
+url("./flaticon.eot?73e390991ef7c00f9454575efe4a7815#iefix") format("embedded-opentype"),
+url("./flaticon.svg?73e390991ef7c00f9454575efe4a7815#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "placeholder": "\f101",
+    "envelope": "\f102",
+    "facebook": "\f103",
+    "twitter": "\f104",
+    "pinterest": "\f105",
+    "linkedin": "\f106",
+    "shopping-cart": "\f107",
+    "loupe": "\f108",
+    "down-arrow": "\f109",
+    "navigate-up-arrow": "\f10a",
+    "down": "\f10b",
+    "menu-1": "\f10c",
+    "up-arrow": "\f10d",
+    "star": "\f10e",
+    "star-1": "\f10f",
+    "leaf": "\f110",
+    "like": "\f111",
+    "plant": "\f112",
+    "right-quotes-symbol": "\f113",
+    "youtube": "\f114",
+    "right-arrow": "\f115",
+    "left-arrow": "\f116",
+    "phone-receiver-silhouette": "\f117",
+    "placeholder-1": "\f118",
+    "instagram": "\f119",
+);
+
+.flaticon-placeholder:before {
+    content: map-get($flaticon-map, "placeholder");
+}
+.flaticon-envelope:before {
+    content: map-get($flaticon-map, "envelope");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon-map, "twitter");
+}
+.flaticon-pinterest:before {
+    content: map-get($flaticon-map, "pinterest");
+}
+.flaticon-linkedin:before {
+    content: map-get($flaticon-map, "linkedin");
+}
+.flaticon-shopping-cart:before {
+    content: map-get($flaticon-map, "shopping-cart");
+}
+.flaticon-loupe:before {
+    content: map-get($flaticon-map, "loupe");
+}
+.flaticon-down-arrow:before {
+    content: map-get($flaticon-map, "down-arrow");
+}
+.flaticon-navigate-up-arrow:before {
+    content: map-get($flaticon-map, "navigate-up-arrow");
+}
+.flaticon-down:before {
+    content: map-get($flaticon-map, "down");
+}
+.flaticon-menu-1:before {
+    content: map-get($flaticon-map, "menu-1");
+}
+.flaticon-up-arrow:before {
+    content: map-get($flaticon-map, "up-arrow");
+}
+.flaticon-star:before {
+    content: map-get($flaticon-map, "star");
+}
+.flaticon-star-1:before {
+    content: map-get($flaticon-map, "star-1");
+}
+.flaticon-leaf:before {
+    content: map-get($flaticon-map, "leaf");
+}
+.flaticon-like:before {
+    content: map-get($flaticon-map, "like");
+}
+.flaticon-plant:before {
+    content: map-get($flaticon-map, "plant");
+}
+.flaticon-right-quotes-symbol:before {
+    content: map-get($flaticon-map, "right-quotes-symbol");
+}
+.flaticon-youtube:before {
+    content: map-get($flaticon-map, "youtube");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon-map, "left-arrow");
+}
+.flaticon-phone-receiver-silhouette:before {
+    content: map-get($flaticon-map, "phone-receiver-silhouette");
+}
+.flaticon-placeholder-1:before {
+    content: map-get($flaticon-map, "placeholder-1");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
